@@ -44,3 +44,11 @@ Under Preview and create, confirm that the information and conditions are what y
 aws cloudwatch put-metric-alarm --alarm-name cpu-mon --alarm-description "Alarm when CPU exceeds 70%" --metric-name CPUUtilization --namespace AWS/EC2 --statistic Average --period 300 --threshold 70 --comparison-operator GreaterThanThreshold --dimensions  Name=InstanceId,Value=i-12345678 --evaluation-periods 2 --alarm-actions arn:aws:sns:us-east-1:111122223333:my-topic --unit Percent
 
 aws cloudwatch set-alarm-state --alarm-name cpu-mon --state-reason "initializing" --state-value ALARM
+
+# Also try with UPtime robot
+create accont
+add https url and monitoring start also you can setup slack noitification as well
+
+![slack2](https://user-images.githubusercontent.com/51254973/123250518-c6b26700-d507-11eb-95b0-f6d6b225ff5d.PNG)
+
+

@@ -1,4 +1,4 @@
-# Axelerant-CloudAlarm
+# CloudAlarm
 #Setup Alarm
 
 RAM usage is greater than 60%, disk space usage is greater than 80%, or CPU usage greater than 70%. 
